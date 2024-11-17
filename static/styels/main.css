@@ -1,0 +1,377 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+} 
+
+/* Для всіх секцій */
+.all_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* ГОЛОВНА */
+
+.home_main{
+    background-image: url(../images/bckgr7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* для section */
+#sad_cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.sad_cat_div1{
+    display: flex;
+}
+.wrappiing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.wrappiing2{
+    padding-top: 50px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    word-break:keep-all;
+}
+.wrappiing2>h2{
+    margin-bottom: 30px;
+}
+.wrappiing2>h2:last-child{
+    margin-bottom: 0;
+}
+.sad_cat_div2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    width: 500px;
+    height: 800px;
+}
+.happy_cat{
+    width: 80%;
+}
+.sad_cat_cloud{
+    width: 500px;
+}
+.sad_cat_cat{
+    width: 200px;
+    height: 250px;
+}
+
+/* ФІЗИЧНЕ ЗДОРОВ'Я */
+
+/* для main */
+.physical_health_exercises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bckgr11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* для section */
+.exercises{
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#title_h1{
+    font-family: SemiBoldItalic, sans-serif;
+}
+.exercises2{
+    width: 100%;
+}
+
+/* div із текстом */
+.morning_exercises_text{
+    padding: 10px 30px;
+}
+
+/* div із текстом */
+.exercises_throughout_the_day{
+    display: flex;
+    width: 1200px;
+    padding: 10px 30px;
+}
+
+.exercises_throughout_the_day>img{
+    width: 230px;
+    height: 230px;
+} 
+
+#cat_img{
+    width: 350px;
+    height: 350px;
+}
+
+/* перший блок з картинкою */
+.cat_image_physical1{
+    display: flex;
+    width: 850px;
+}
+
+.cat_image_physical1>img{
+    width: 330px;
+    height: 240px;
+    margin-right: 30px;
+}
+
+/* другий блок з картинкою */
+.cat_image_physical2{
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+}
+
+.cat_image_physical2>img{
+    width: 230px;
+    height: 200px;
+}
+
+/* третий блок з картинкою */
+.cat_image_physical3{
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+}
+
+.paragraph{
+    margin-left: 50px;
+}
+
+/* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
+
+/* для main */
+.mental_health_exercises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bckgr6.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* для section */
+.grounding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.grounding2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+/* картинка */
+.grounding>img{
+    width: 400px;
+    height: 400px;
+}
+
+/* div із текстом */
+.mental_exercises_text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+.Table{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.Table>table{
+    text-align: center;
+    height: 80%;
+    width: 60%;
+    font-size: 25px;
+}
+.Table>table>thead>tr>th{
+    font-style: italic;
+    font-size: 30px;
+}
+
+table, th, thead, tbody {
+    border: 2px solid rgb(7, 146, 201);
+    border-collapse: collapse;
+}
+
+th{
+    padding: 8px;
+}
+
+.mental_exercises_text>div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mental_exercises_text>div>div{
+    width: 430px;
+}
+
+.mental_exercises_text>div>div>section>ul>li{
+    font-size: 25px;
+}
+
+.mental_exercises_text>img{
+    width: 300px;
+    height: 300px;
+}
+
+/* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+/* для main */
+.emotional_health_exercises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bckgr5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* для section */
+.emotional_health_section{ 
+    width: 100%;
+}
+.emotional_health_section2{
+    width: 100%;
+}
+/* div із текстом */
+.emotional_health_text{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.wrapping3{
+    display: flex;
+}
+.emotional_health_text2{
+    display: flex;
+    word-break: keep-all;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+.emotional_health_text2>img{
+    width: 550px;
+    height: 550px;
+}
+.activities{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.activities>ul{
+    list-style: none;
+    line-height: 50px;
+    font-style: italic;
+}
+.activities>ul>li{
+        font-size: 30px;
+}
+.activities>ul>li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/paw.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+}
+.activities_padding{
+    padding-left: 50px;
+}
+.activities_img{
+    width: 400px;
+}
+.coffee_cat{
+    width: 200px;
+    height: 200px;
+}
+.playing_cat{
+    width: 200px;
+    height: 300px;
+}
+.gaming_cat{
+    height: 300px;
+    width: 300px;
+}
+.reading_cat{
+    width: 250px;
+    height: 250px;
+}
+.help_list{
+    padding-bottom: 80px;
+}
+.help_list>ul{
+    line-height: 70px;
+    margin-top: 30px;
+}
+.help_list>ul>li{
+    font-size: 30px;
+    font-style: italic;
+}
+.help_list>ul>li>a{
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    color: green;
+}
+.help_list>ul>li>a:hover{
+    color: orange;
+}
+#five_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+#five_items>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}

@@ -1,0 +1,69 @@
+@font-face{
+    font-family: SemiBoldItalic;
+    src: url(../fonts/PlayfairDisplay-SemiBoldItalic.ttf);
+} 
+
+
+@media( hover:none){
+
+    a:active{
+
+    color: rgb(3, 193, 75);
+
+    }
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+nav a p:hover{
+    animation-name: nav;
+    animation-duration: 0.3s;
+    animation-timing-function: ease; 
+    animation-fill-mode: forwards;
+    color: rgb(3, 193, 75);
+    font-style: normal;
+}
+.physical_health_title{
+    background-image: url(../images/Header2.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/Header2.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.physical_health_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.physical_health_title{
+    padding: 20px 30px;
+}
+.mental_health_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emotional_health_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

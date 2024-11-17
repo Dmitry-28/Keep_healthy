@@ -1,0 +1,1174 @@
+@media (min-width: 320px) {
+    nav a{
+        margin-right: 18px;
+        text-align: center;
+    }
+    nav a:first-child{
+        margin-left: 8px;
+
+    }
+    nav a p{
+        font-size: 16px;
+    }
+
+    #title_h1{
+       font-size: 22px;
+    }
+    #title_h2{
+        font-size: 19px;
+    }
+
+.Table>table{
+    font-size: 19px;
+}
+.Table>table>thead>tr>th{
+    font-size: 22px;
+}
+    /* ГОЛОВНА */
+
+    .wrappiing2{
+        width: 320px;
+    }
+
+    .wrappiing2>h2{
+        padding-left: 15px;
+    }
+
+    .sad_cat_cat{
+        width: 150px;
+        height: 200px;
+    }
+
+    .sad_cat_div2{
+        height: 400px;
+        width: 320px;
+    }
+
+    .sad_cat_cloud{
+        width: 300px;
+    }
+
+    .sad_cat_div1{
+        flex-direction: column;
+    }
+
+    /* ЕМОЦІОНАЛЬНЕ ЗДОРОВ'Я */
+
+    .emotional_health_text>div>ul{
+        font-size: 19px;
+    }
+    .emotional_health_section>h1{
+        text-align: center;
+    }
+
+    /* ФІЗІЧНЕ ЗДОРОВ'Я */
+
+    /* перший блок з картинкою */
+    .cat_image_physical1{
+    display: flex;
+    width: 320px;
+    }
+
+    .cat_image_physical1>img{
+    width: 120px;
+    height: 80px;
+    margin-right: 30px;
+    }
+
+    /* другий блок з картинкою */
+    .cat_image_physical2{
+    display: flex;
+    margin-top: 40px;
+    width: 320px;
+    }
+
+    .cat_image_physical2>img{
+    width: 150px;
+    height: 130px;
+    }
+
+    /* третий блок з картинкою */
+    .cat_image_physical3{
+    display: flex;
+    margin-top: 40px;
+    width: 320px;
+    padding-left: 10px;
+    }
+    
+    .cat_image_physical3>img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .exercises_throughout_the_day{
+        display: flex;
+        width: 320px;
+        padding: 10px 30px;
+        flex-direction: column;
+    }
+    
+    .exercises_throughout_the_day>img{
+        width: 120px;
+        height: 120px;
+    } 
+    
+    .exercises{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .morning_exercises_text{
+        padding: 0px 0px;
+    } 
+    
+    #cat_img{
+        width: 170px;
+        height: 170px;
+    }
+
+
+    /* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
+
+    .mental_exercises_text{
+        width: 320px;
+    }
+
+    .mental_exercises_text>div>div>section>ul>li{
+        font-size: 20px;
+    }
+
+    .fourth_item{
+        width: 170px;
+    }
+
+    .first_item{
+        width: 160px;
+    }
+
+    #five_items>img{
+        width: 30px;
+        height: 30px;
+        margin-left: 7px;
+    }
+
+    .grounding{
+        flex-direction: column;
+    }
+
+    .grounding>img{
+        width: 180px;
+        height: 250px;
+    }
+
+    /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+    .wrapping3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coffee_cat{
+        width: 110px;
+        height: 110px;
+    }
+
+    .playing_cat{
+        width: 90px;
+        height: 140px;
+    }
+
+    .activities_padding{
+        padding: 0;
+    }
+
+    .activities{
+        width: 320px;
+    }
+
+    .activities>ul>li{
+        font-size: 20px;
+    }
+
+    .activities_img{
+        text-align: center;
+        width: 320px;
+    }
+
+    .emotional_health_text{
+        width: 320px;
+    }
+
+    .emotional_health_text2>img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .emotional_health_text2{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .reading_cat{
+        width: 150px;
+        height: 150px;
+    }
+
+    .gaming_cat{
+        width: 150px;
+        height: 150px;
+    }
+
+    .help_list{
+        padding-left: 28px;
+    }
+
+    .help_list>ul{
+        line-height: 40px;
+    }
+
+    .help_list>ul>li{
+        font-size: 20px;
+    }
+
+    @keyframes nav{
+        0%{
+                margin-left: 3px;
+                margin-right: 3px;
+                font-size: 16px;
+        }
+        25%{
+                font-size: 16.5px;
+                margin-right: 5px;
+                margin-left: 5px;
+        }
+        50%{
+                font-size: 17px;
+                margin-right: 7px;
+                margin-left: 7px;
+        }
+        75%{
+                font-size: 17.5px;
+                margin-right: 9px;
+                margin-left: 9px;
+        }
+        100%{
+                font-size: 18px;
+                margin-right: 11px;
+                margin-left: 11px;
+        }
+    } 
+}
+@media (min-width: 375px) {
+    nav a{
+        margin-right: 12px;
+    }
+    nav a:first-child{
+        margin-left: 10px;
+    }
+    nav a p{
+        font-size: 18px;
+    }
+    #title_h1{
+        font-size: 24px;
+     }
+     #title_h2{
+         font-size: 21px;
+     } 
+
+     .Table>table{
+        font-size: 20px;
+    }
+    .Table>table>thead>tr>th{
+        font-size: 23px;
+    }
+
+    .wrappiing2{
+        width: 375px;
+    }
+    .sad_cat_cat{
+        width: 150px;
+        height: 200px;
+    }
+
+    .sad_cat_div2{
+        height: 400px;
+        width: 375px;
+    }
+
+    .sad_cat_cloud{
+        width: 300px;
+    }
+
+    .sad_cat_div1{
+        flex-direction: column;
+    }
+
+      /* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
+
+    .fiveth_item{
+        width: 220px;
+    }
+
+    .mental_exercises_text{
+        width: 375px;
+    }
+
+       /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+    .activities{
+        width: 375px;
+    }
+
+    .activities_img{
+        text-align: center;
+        width: 375px;
+    }
+
+    .emotional_health_text{
+        width: 375px;
+    }
+
+    @keyframes nav{
+        0%{
+                margin-left: 3px;
+                margin-right: 3px;
+                font-size: 18px;
+        }
+        25%{
+                font-size: 18.5px;
+                margin-right: 5px;
+                margin-left: 5px;
+        }
+        50%{
+                font-size: 19px;
+                margin-right: 7px;
+                margin-left: 7px;
+        }
+        75%{
+                font-size: 19.5px;
+                margin-right: 9px;
+                margin-left: 9px;
+        }
+        100%{
+                font-size: 20px;
+                margin-right: 11px;
+                margin-left: 11px;
+        }
+    } 
+}
+@media (min-width: 425px) {
+    #title_h1{
+        font-size: 24px;
+     }
+     .exercises_throughout_the_day{
+        display: flex;
+        padding: 10px 30px;
+        flex-direction: column;
+    }
+
+    .Table>table{
+        font-size: 21px;
+    }
+    .Table>table>thead>tr>th{
+        font-size: 24px;
+    }
+
+      /* ГОЛОВНА */
+     
+      .wrappiing2{
+        width: 425px;
+    }
+
+    .wrappiing2>h2{
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+
+    .sad_cat_cat{
+        width: 150px;
+        height: 200px;
+    }
+
+    .sad_cat_div2{
+        height: 500px;
+        width: 425px;
+    }
+
+    .sad_cat_cloud{
+        width: 300px;
+    }
+
+    .sad_cat_div1{
+        flex-direction: column;
+    }
+
+    .sad_cat_cloud{
+        width: 400px;
+    }
+
+    .sad_cat_cat{
+        width: 200px;
+        height: 250px;
+    }
+
+     /* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
+
+    .fiveth_item{
+        width: 230px;
+    }
+
+    .first_item{
+        width: 180px;
+    }
+
+    .fourth_item{
+        width: 190px;
+    }
+
+    .mental_exercises_text{
+        width: 425px;
+    }
+
+    .mental_exercises_text>div>div>section>ul>li{
+        font-size: 22px;
+    }
+
+       /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+    .activities{
+        width: 425px;
+    }
+
+    .activities>ul>li{
+        font-size: 22px;
+    }
+
+    .activities_img{
+        text-align: center;
+        width: 425px;
+    }
+
+    .emotional_health_text{
+        width: 425px;
+    }
+
+    .coffee_cat{
+        width: 130px;
+        height: 130px;
+    }
+
+    .playing_cat{
+        width: 100px;
+        height: 150px;
+    }
+
+    .reading_cat{
+        width: 160px;
+        height: 160px;
+    }
+
+    .gaming_cat{
+        width: 160px;
+        height: 160px;
+    }
+}
+@media (min-width: 768px) {
+    nav a{
+        margin-right: 30px;
+    }
+    nav a p{
+        font-size: 20px;
+    }
+    .emotional_health_text>div>ul{
+        font-size: 21px;
+    }
+    #title_h1{
+        font-size: 29px;
+     }
+     #title_h2{
+         font-size: 24px;
+         padding: 0;
+     } 
+
+     .Table>table{
+        font-size: 24px;
+    }
+    .Table>table>thead>tr>th{
+        font-size: 28px;
+    }
+
+           /* ГОЛОВНА */
+     
+        .wrappiing2{
+            width: 768px;
+        }
+    
+        .wrappiing2>h2{
+            margin-left: 15px;
+            margin-right: 5px;
+        }
+    
+        .sad_cat_cat{
+            width: 150px;
+            height: 200px;
+        }
+    
+        .happy_cat{
+            width: 60%;
+        }
+
+        .sad_cat_div2{
+            height: 800px;
+            width: 768px;
+        }
+    
+        .sad_cat_cloud{
+            width: 300px;
+        }
+    
+        .sad_cat_div1{
+            flex-direction: column;
+        }
+    
+        .sad_cat_cloud{
+            width: 400px;
+        }
+    
+        .sad_cat_cat{
+            width: 200px;
+            height: 250px;
+        }    
+
+      /* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
+
+    .fiveth_item{
+        width: 220px;
+    }
+
+    .mental_exercises_text{
+        width: 375px;
+    }
+
+       /* перший блок з картинкою */
+    .cat_image_physical1{
+        display: flex;
+        width: 768px;
+        }
+    
+        .cat_image_physical1>h2{
+            width: 500px;
+        }
+
+        .cat_image_physical1>img{
+        width: 120px;
+        height: 80px;
+        margin-right: 30px;
+        }
+    
+        /* другий блок з картинкою */
+        .cat_image_physical2{
+        display: flex;
+        margin-top: 40px;
+        width: 768px;
+        }
+    
+        .cat_image_physical2>img{
+        width: 150px;
+        height: 130px;
+        }
+    
+        /* третий блок з картинкою */
+        .cat_image_physical3{
+        display: flex;
+        margin-top: 40px;
+        width: 768px;
+        padding-left: 10px;
+        }
+        
+        .cat_image_physical3>img{
+            width: 120px;
+            height: 120px;
+        }
+
+        .cat_image_physical3>h2{
+           margin-left: 80px;
+        }
+
+        .mental_exercises_text{
+            width: 768px;
+        }
+
+        .exercises{
+            word-break:keep-all;
+        }
+
+     .exercises_throughout_the_day{
+        display: flex;
+        padding: 10px 30px;
+        flex-direction: row;
+        width: 768px;
+    }
+
+    .cat_image_physical2>h2{
+        width: 500px;
+    }
+
+    
+       /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+    .activities{
+        width: 768px;
+    }
+
+    .activities>ul>li{
+        font-size: 22px;
+    }
+
+    .activities_img{
+        text-align: center;
+        width: 768px;
+    }
+
+    .emotional_health_text{
+        width: 768px;
+    }
+
+    .emotional_health_text2{
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+
+    .emotional_health_text2>img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .help_list>ul>li{
+        font-size: 22px;
+    }
+
+    .coffee_cat{
+        width: 160px;
+        height: 160px;
+    }
+
+    .playing_cat{
+        width: 130px;
+        height: 175px;
+    }
+
+    .reading_cat{
+        width: 170px;
+        height: 170px;
+    }
+
+    .gaming_cat{
+        width: 180px;
+        height: 180px;
+    }
+
+    @keyframes nav{
+        0%{
+                margin-left: 3px;
+                margin-right: 3px;
+                font-size: 20px;
+        }
+        25%{
+                font-size: 20.5px;
+                margin-right: 5px;
+                margin-left: 5px;
+        }
+        50%{
+                font-size: 21px;
+                margin-right: 7px;
+                margin-left: 7px;
+        }
+        75%{
+                font-size: 21.5px;
+                margin-right: 9px;
+                margin-left: 9px;
+        }
+        100%{
+                font-size: 22px;
+                margin-right: 11px;
+                margin-left: 11px;
+        }
+    } 
+}
+@media (min-width: 1024px) {
+    nav a{
+        margin-right: 40px;
+    }
+    nav a p{
+         font-size: 28px; 
+    }
+    #title_h1{
+        font-size: 35px;
+     }
+     #title_h2{
+         font-size: 28px;
+     
+   } 
+
+   .Table>table{
+    font-size: 26px;
+}
+.Table>table>thead>tr>th{
+    font-size: 30px;
+}
+
+        /* ГОЛОВНА */
+     
+        .wrappiing2{
+            width: 360px;
+            padding-bottom: 50px;
+        }
+    
+        .wrappiing2>h2{
+            margin-left: 15px;
+            margin-right: 5px;
+        }
+    
+        .sad_cat_cat{
+            width: 150px;
+            height: 200px;
+        }
+    
+        .happy_cat{
+            width: 90%;
+        }
+
+        .sad_cat_div2{
+            height: 800px;
+            width: 350px;
+        }
+    
+        .sad_cat_cloud{
+            width: 300px;
+        }
+    
+        .sad_cat_cat{
+            width: 150px;
+            height: 200px;
+        }    
+
+        .sad_cat_div1{
+        flex-direction: row;
+        }
+
+   .exercises_throughout_the_day{
+    flex-direction: row;
+    display: flex;
+    padding: 10px 30px;
+}
+
+  /* перший блок з картинкою */
+  .cat_image_physical1{
+    display: flex;
+    width: 1024px;
+    }
+
+    .cat_image_physical1>h2{
+        width: 750px;
+    }
+
+    .cat_image_physical1>img{
+    width: 160px;
+    height: 120px;
+    margin-right: 30px;
+    }
+
+    /* другий блок з картинкою */
+    .cat_image_physical2{
+    display: flex;
+    margin-top: 40px;
+    width: 1024px;
+    }
+
+    .cat_image_physical2>h2{
+        width: 750px;
+    }
+
+    .cat_image_physical2>img{
+    width: 170px;
+    height: 150px;
+    }
+
+    /* третий блок з картинкою */
+    .cat_image_physical3{
+    display: flex;
+    margin-top: 40px;
+    width: 1024px;
+    padding-left: 10px;
+    }
+    
+    .cat_image_physical3>img{
+        width: 160px;
+        height: 160px;
+    }
+
+     /* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
+
+     .fiveth_item{
+        width: 370px;
+    }
+
+    .first_item{
+        width: 320px;
+    }
+
+    .fourth_item{
+        width: 330px;
+    }
+
+    .mental_exercises_text{
+        width: 1024px;
+    }
+
+    .mental_exercises_text>div>div>section>ul>li{
+        font-size: 25px;
+    }
+
+    .grounding{
+        flex-direction: row;
+    }
+
+    .grounding>img{
+        width: 250px;
+        height: 250px;
+    }
+
+    #five_items>img{
+        width: 40px;
+        height: 40px;
+        margin-left: 7px;
+    }
+
+    .mental_exercises_text{
+        width: 1024px;
+    }
+
+    .emotional_health_text2{
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+      /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+    .activities{
+        width: 1024px;
+    }
+
+    .activities_padding{
+        padding-left: 50px;
+    }
+
+    .activities>ul>li{
+        font-size: 25px;
+    }
+
+    .activities_img{
+        text-align: start;
+        width: 400px;
+    }
+
+    .emotional_health_text{
+        width: 1024px;
+    }
+
+    .emotional_health_text2{
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+
+    .emotional_health_text2>img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .help_list>ul>li{
+        font-size: 25px;
+    }
+
+    .coffee_cat{
+        width: 180px;
+        height: 180px;
+    }
+
+    .playing_cat{
+        width: 150px;
+        height: 220px;
+    }
+
+    .reading_cat{
+        width: 180px;
+        height: 180px;
+    }
+
+    .gaming_cat{
+        width: 210px;
+        height: 210px;
+    }
+
+    .help_list>ul{
+        line-height: 70px;
+    }
+
+    .wrapping3{
+        flex-direction: row;
+    }
+
+    @keyframes nav{
+        0%{
+                margin-left: 3px;
+                margin-right: 3px;
+                font-size: 28px;
+        }
+        25%{
+                font-size: 28.5px;
+                margin-right: 5px;
+                margin-left: 5px;
+        }
+        50%{
+                font-size: 29px;
+                margin-right: 7px;
+                margin-left: 7px;
+        }
+        75%{
+                font-size: 29.5px;
+                margin-right: 9px;
+                margin-left: 9px;
+        }
+        100%{
+                font-size: 30px;
+                margin-right: 11px;
+                margin-left: 11px;
+        }
+    } 
+}
+@media (min-width: 1440px) {
+    nav a{
+        margin-right: 50px;
+    }
+    nav a p{
+        font-size: 30px;
+    }
+    #title_h1{
+        font-size: 40px;
+     }
+     #title_h2{
+        font-size: 28px;
+     } 
+
+      /* ГОЛОВНА */
+     
+    .wrappiing2{
+        width: 600px;
+    }
+
+    .wrappiing2>h2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sad_cat_cat{
+        width: 200px;
+        height: 250px;
+    }
+
+    .happy_cat{
+        width: 90%;
+    }
+
+    .sad_cat_div2{
+        height: 800px;
+        width: 400px;
+    }
+
+    .sad_cat_cloud{
+        width: 400px;
+    }
+
+
+     .morning_exercises_text{
+        padding-left: 70px;
+        padding-right: 70px;
+     }
+     .exercises_throughout_the_day{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 50px;
+     }
+     .physical_health_title{
+        padding-left: 70px;
+        padding-right: 70px;
+     }
+
+    /* перший блок з картинкою */
+    .cat_image_physical1{
+    display: flex;
+    width: 850px;
+    }
+
+    .cat_image_physical1>img{
+    width: 330px;
+    height: 240px;
+    margin-right: 30px;
+    }
+
+    /* другий блок з картинкою */
+    .cat_image_physical2{
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+    }
+
+    .cat_image_physical3>h2{
+        margin-left: 0px;
+     }
+
+    .cat_image_physical2>img{
+    width: 230px;
+    height: 200px;
+    }
+
+    /* третий блок з картинкою */
+    .cat_image_physical3{
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+    }
+
+    .cat_image_physical3>img{
+        width: 422px;
+        height: 422px;
+    }
+    
+    .exercises_throughout_the_day{
+        display: flex;
+        width: 1200px;
+        padding: 10px 30px;
+    }
+    
+    .exercises_throughout_the_day>img{
+        width: 230px;
+        height: 230px;
+    } 
+
+    #cat_img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .exercises{
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .morning_exercises_text{
+        padding: 10px 30px;
+    }    
+
+    .grounding>img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .mental_health_exercises{
+        height: 1676px;
+    }
+
+    .mental_exercises_text{
+        width: 1440px;
+    }
+
+      /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+
+      .activities{
+        width: 1440px;
+    }
+
+    .activities_padding{
+        padding-left: 50px;
+    }
+
+    .activities>ul>li{
+        font-size: 28px;
+    }
+
+    .activities_img{
+        width: 600px;
+    }
+
+    .emotional_health_text{
+        width: 1440px;
+    }
+
+    .emotional_health_text2{
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+
+    .emotional_health_text2>img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .help_list>ul>li{
+        font-size: 28px;
+    }
+
+    .coffee_cat{
+        width: 240px;
+        height: 240px;
+    }
+
+    .playing_cat{
+        width: 170px;
+        height: 250px;
+    }
+
+    .reading_cat{
+        width: 240px;
+        height: 240px;
+    }
+
+    .gaming_cat{
+        width: 250px;
+        height: 250px;
+    }
+
+
+    @keyframes nav{
+        0%{
+                margin-left: 3px;
+                margin-right: 3px;
+                font-size: 30px;
+        }
+        25%{
+                font-size: 30.5px;
+                margin-right: 5px;
+                margin-left: 5px;
+        }
+        50%{
+                font-size: 31px;
+                margin-right: 7px;
+                margin-left: 7px;
+        }
+        75%{
+                font-size: 31.5px;
+                margin-right: 9px;
+                margin-left: 9px;
+        }
+        100%{
+                font-size: 32px;
+                margin-right: 11px;
+                margin-left: 11px;
+        }
+    } 
+}
+
