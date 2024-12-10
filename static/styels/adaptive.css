@@ -1,16 +1,24 @@
 @media (min-width: 320px) {
-    nav a{
-        margin-right: 18px;
-        text-align: center;
+    .ex2>img{
+        width: 100px;
+        height: 110px;
     }
-    nav a:first-child{
-        margin-left: 8px;
-
+    nav{
+        display: none;
     }
-    nav a p{
-        font-size: 16px;
+    .phone_menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
     }
-
+    .phone_menu a{
+        font-size: 20px;
+    }
+    .phone_menuBtn{
+        display: flex;
+    }
     #title_h1{
        font-size: 22px;
     }
@@ -25,6 +33,9 @@
     font-size: 22px;
 }
     /* ГОЛОВНА */
+    #textWish {
+        width: 310px;
+     }
 
     .wrappiing2{
         width: 320px;
@@ -53,6 +64,10 @@
     }
 
     /* ЕМОЦІОНАЛЬНЕ ЗДОРОВ'Я */
+
+    .testDep{
+        width: 80%;
+    }
 
     .emotional_health_text>div>ul{
         font-size: 19px;
@@ -162,6 +177,9 @@
     }
 
     /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+    #deep_breathing_img{
+        width: 320px;
+    }
 
     .wrapping3{
         flex-direction: column;
@@ -232,6 +250,57 @@
         font-size: 20px;
     }
 
+    /* Домедична допомога */
+
+    .medical_main>section>div>img{
+        border-radius: 20px;
+        width: 160px;
+        height: 200px;
+    }
+    .medical_main>section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link_for_song{
+        text-decoration: none;
+        font-weight: 600;
+        color: blue;
+    }
+    .slr_img{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .medical_main>section>div{
+        display: flex;
+        width: 90%;
+    }
+    .slr_1{
+        flex-direction: column-reverse;
+    }
+    .slr_2{
+        flex-direction: column;
+    }
+    .slr_3{
+        flex-direction: column-reverse;
+    }
+    .slr_4{
+        flex-direction: column;
+    }
+    .slr_5{
+        flex-direction: column-reverse;
+    }
+    .slr_6{
+        flex-direction: column;
+    }
+    .slr_7{
+        flex-direction: column-reverse;
+    }
+    .ryki{
+        width: 40%;
+        right: 20%;
+    }
+
     @keyframes nav{
         0%{
                 margin-left: 3px;
@@ -259,17 +328,11 @@
                 margin-left: 11px;
         }
     } 
+    .gryd{
+        width: 90%;
+    }
 }
 @media (min-width: 375px) {
-    nav a{
-        margin-right: 12px;
-    }
-    nav a:first-child{
-        margin-left: 10px;
-    }
-    nav a p{
-        font-size: 18px;
-    }
     #title_h1{
         font-size: 24px;
      }
@@ -475,8 +538,32 @@
     }
 }
 @media (min-width: 768px) {
+    #en{
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
+    #ua{
+        margin-left: 0;
+    }
+    nav a:first-child{
+        margin-left: 22px;
+    }
+    .phone_menuBtn{
+        display: none;
+    }
+    .phone_menu{
+        display: none;
+    }
+    nav{
+        display: flex;
+    }
     nav a{
-        margin-right: 30px;
+        margin-right: 25px;
+    }
+    nav a:last-child{
+        margin-right: 0px;
     }
     nav a p{
         font-size: 20px;
@@ -500,6 +587,9 @@
     }
 
            /* ГОЛОВНА */
+           #textWish {
+           width: 500px;
+        }
      
         .wrappiing2{
             width: 768px;
@@ -618,6 +708,10 @@
     
        /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
 
+    .testDep{
+        width: 65%;
+    }
+
     .activities{
         width: 768px;
     }
@@ -667,6 +761,37 @@
     .gaming_cat{
         width: 180px;
         height: 180px;
+    }
+
+    /* Домедична допомога */
+
+    .slr_1{
+        flex-direction: row;
+    }
+    .slr_2{
+        flex-direction: row;
+    }
+    .slr_3{
+        flex-direction: row;
+    }
+    .slr_4{
+        flex-direction: row;
+    }
+    .slr_5{
+        flex-direction: row;
+    }
+    .slr_6{
+        flex-direction: row;
+    }
+    .slr_7{
+        flex-direction: row;
+    }
+    .slr_img{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    #deep_breathing_img{
+        width: 431px;
     }
 
     @keyframes nav{
@@ -857,6 +982,10 @@
     }
 
       /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
+    
+    .testDep{
+        width: 50%;
+    }
 
     .activities{
         width: 1024px;
@@ -919,6 +1048,51 @@
 
     .wrapping3{
         flex-direction: row;
+    }
+
+    /* Домедична допомога */
+
+    .medical_main>section>div>img{
+        border-radius: 20px;
+        width: 300px;
+        height: 350px;
+    }
+    .medical_main>section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link_for_song{
+        text-decoration: none;
+        font-weight: 600;
+        color: blue;
+    }
+    .slr_img{
+        border-radius: 20px;
+        width: 300px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .medical_main>section>div{
+        display: flex;
+        /* width: 48%; */
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .ryki{
+        width: 13%;
+        position: absolute;
+        right: 38%;
+        /* margin-top: 1030px; */
+        margin-top: 0;
+    }
+    .gryd{
+        width: 120%;
+    }
+    .ex2>img{
+        width: 220px;
+        height: 300px;
     }
 
     @keyframes nav{
@@ -1078,9 +1252,9 @@
         height: 300px;
     }
 
-    .mental_health_exercises{
+    /* .mental_health_exercises{
         height: 1676px;
-    }
+    } */
 
     .mental_exercises_text{
         width: 1440px;
@@ -1142,6 +1316,11 @@
         height: 250px;
     }
 
+    /* Домедична допомога */
+
+    .medical_main>section>div{
+        width: 48%;
+    }
 
     @keyframes nav{
         0%{
@@ -1171,4 +1350,5 @@
         }
     } 
 }
+
 
