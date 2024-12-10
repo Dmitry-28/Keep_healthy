@@ -18,16 +18,25 @@
 <body>
     <header class="physical_health_header">
         <nav>
-            <a href="index.html">
+            <a class="lang" key="home" href="index.html">
                 <p>Головна</p>
             </a>
-            <a href="page2.html">
+            <a class="lang" key="physicalHealth" href="page1.html">
+                <p>Фізичне здоров'я</p>
+            </a>
+            <a class="lang" key="mentalHealth" href="page2.html">
                 <p>Психологічне здоров'я</p>
             </a>
-            <a href="page3.html">
+            <a class="lang" key="emotionalHealth" href="page3.html">
                 <p>Емоційне здоров'я</p>
             </a>
+            <a class="lang" key="firstAid" href="page4.html">
+                <p>Домедична допомога</p>
+            </a>
+            <!-- <button id="en">En</button>
+            <button id="ua">Ua</button> -->
         </nav>
+        <a class="phone_menuBtn" href="menu.html"><button>Меню</button></a>
         <div class="physical_health_title">
             <h2 id="title_h2">Думаю, тобі добре відомо, що фізичні вправи не тільки підвищують тонус організму, але й
                 покращують
@@ -120,7 +129,22 @@
                     </div> 
             
         </section>
+
+        <div class="imt">
+            <h2 id="title_h2">Ваш індекс маси тіла (ІМТ): <span id="cheack_form"></span></h2>
+                <input id="gender" placeholder="Введіть свою стать" type="text">
+                <input id="age"  placeholder="Введіть свій вік" type="number">
+                <input id="height" placeholder="Введіть свій зріст (см)" type="number">
+                <input id="kg" placeholder="Введіть свою вагу (кг)" type="number">
+                <button onclick="imtTest()">Дізнатись</button>
+        </div>
+       
     </main>
+
+    <script src="/static/styels/imtTest.js">
+
+    </script>
+
 </body>
 
 </html>
