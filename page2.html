@@ -18,16 +18,25 @@
 <body>
     <header class="mental_health_header">
         <nav>
-            <a href="page1.html">
-                <p>Фізичне здоров’я</p>
-            </a>
             <a href="index.html">
                 <p>Головна</p>
+            </a>
+            <a href="page1.html">
+                <p>Фізичне здоров'я</p>
+            </a>
+            <a href="page2.html">
+                <p>Психологічне здоров'я</p>
             </a>
             <a href="page3.html">
                 <p>Емоційне здоров'я</p>
             </a>
+            <a href="page4.html">
+                <p>Домедична допомога</p>
+            </a>
+            <!-- <button id="en">En</button>
+            <button id="ua">Ua</button> -->
         </nav>
+        <a class="phone_menuBtn" href="menu.html"><button>Меню</button></a>
         <div class="physical_health_title">
             <h2 id="title_h2">Підтримка внутрішньої рівноваги вкрай важлива для гарного самопочуття. У твоєму віці
                 ти вже можеш навчитися управляти своїм станом і не дозволяти тривожним думкам відволікати тебе від
@@ -144,7 +153,231 @@
                 </table>
             </div>
         </section>
+
+        <h1 id="title_h1">Опитувальник PHQ-9</h1>
+        <h2 id="title_h2" class="title_depTest">Прочитай наступні тверждення і вкажи, як часто протягом останніх двох тижнів тебе турбували будь-які з перерахованих проблем?
+           <br> <i>Увага! Встановити будь-який діагноз може тільки лікар. Цей тест є лише інструментом для виявлення можливих симптомів депресії.</i></h2>
+
+       <form action="post" name="depressionTest" class="testDep">
+        <p> <span>1. Зниження інтересу або відчуття задоволення від виконання справ</span>
+            <br>
+            <label>
+                <input type="radio" name="question1" id="variant11" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question1" id="variant12" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question1" id="variant13" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question1" id="variant14" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p> <span>2. Поганий настрій, вічуття пригнічення або безнадії</span>
+            <br>
+            <label>
+                <input type="radio" name="question2" id="variant21" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question2" id="variant22" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question2" id="variant23" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question2" id="variant24" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p>  <span>3. Труднощі з засинанням, поверхневий сон або, навпаки, надмірна сонливість</span>
+            <br>
+            <label>
+                <input type="radio" name="question3" id="variant31" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question3" id="variant32" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question3" id="variant33" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question3" id="variant34" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p> <span>4. Відчуття втоми або зниження енергії</span>
+            <br>
+            <label>
+                <input type="radio" name="question4" id="variant41" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question4" id="variant42" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question4" id="variant43" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question4" id="variant44" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p> <span>5. Поганий апетит або переїдання</span>
+            <br>
+            <label>
+                <input type="radio" name="question5" id="variant51" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question5" id="variant52" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question5" id="variant53" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question5" id="variant54" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p> <span>6. Негативне відчуття щодо себе: або Ви почувалися невдахою, або ж розчаровувались у собі, або думали, що підвели родину</span>
+            <br>
+            <label>
+                <input type="radio" name="question6" id="variant61" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question6" id="variant62" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question6" id="variant63" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question6" id="variant64" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p>  <span>7. Труднощі з концентрацією уваги, наприклад, при читанні або перегляді телепередач</span>
+            <br>
+            <label>
+                <input type="radio" name="question7" id="variant71" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question7" id="variant72" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question7" id="variant73" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question7" id="variant74" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p> <span>8. Сповільненість рухів і мовлення, яку помічають оточуючі. Або, навпаки, надмірна і непритаманна Вам метушливість і активність</span>
+            <br>
+            <label>
+                <input type="radio" name="question8" id="variant81" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question8" id="variant82" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question8" id="variant83" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question8" id="variant84" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+        <p> <span> 9. Думки, що було б краще, якби Ви померли, або думки про те, щоб заподіяти собі шкоду</span>
+            <br>
+            <label>
+                <input type="radio" name="question9" id="variant91" value="0">
+                Ніколи
+            </label>            
+            <br>
+            <label>
+                <input type="radio" name="question9" id="variant92" value="1">
+                Декілька днів
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question9" id="variant93" value="2">
+                Більшу половину часу
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question9" id="variant94" value="3">
+                Майже щодня
+            </label>
+            <br>
+        </p>
+       </form>
+
+       <h2 id="answerDepTest"></h2>
+
+       <button class="depFormBtn" onclick="perevirka(this.form)" >Подивитися результат</button>
+
     </main>
+
+    <script src="static/styels/imtTest.js">
+
+    </script>
+
 </body>
 
 </html>
