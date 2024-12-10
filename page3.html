@@ -18,16 +18,25 @@
 <body>
     <header class="emotional_health_header">
         <nav>
-            <a href="page1.html">
-                <p>Фізичне здоров’я</p>
-            </a>
-            <a href="page2.html">
-                <p>Психологічне здоров’я</p>
-            </a>
             <a href="index.html">
                 <p>Головна</p>
             </a>
+            <a href="page1.html">
+                <p>Фізичне здоров'я</p>
+            </a>
+            <a href="page2.html">
+                <p>Психологічне здоров'я</p>
+            </a>
+            <a href="page3.html">
+                <p>Емоційне здоров'я</p>
+            </a>
+            <a href="page4.html">
+                <p>Домедична допомога</p>
+            </a>
+            <!-- <button id="en">En</button>
+            <button id="ua">Ua</button> -->
         </nav>
+        <a class="phone_menuBtn" href="menu.html"><button>Меню</button></a>
     </header>
 
     <main class="emotional_health_exercises">
@@ -92,6 +101,21 @@
                 </ul>
             </div>
         </section>
+
+        <section class="deep_breathing">
+            <h1 id="title_h1">Глибоке дихання</h1>
+            <h2 class="deep_breathing_title_h2" id="title_h2"><i>Техніка виконання глибокого дихання проста – під час вдиху має рухатися тільки живіт. Глибоке дихання допомагає заспокоїтися
+                у випадку хвилювання чи тривоги, а також полегшує засинання. Дихати треба плавно й повільно, зосередившись на рухах живота (можна класти руку 
+                на живіт). <br> Спробуй подихати разом із котиком, він допоможе краще відчувати ритм.
+            </i></h2>
+            <img id="deep_breathing_img" src="static/images/Breath-out.png" alt="">
+            <h2 id="count_down_breathing">0</h2>
+            <h2 id="inOrOut"> </h2>
+            <button onclick="deepBreathingTime()">Почати</button>
+        </section>
+
+        <script src="static/styels/imtTest.js"> </script>
+
     </main>
 </body>
 
