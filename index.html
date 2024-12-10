@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="static/styels/header.css">
     <link rel="stylesheet" href="static/styels/adaptive.css">
     <link rel="icon" href="static/images/small logo.png">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
     <header class="home_header">
         <nav>
+            <a href="index.html">
+                <p>Головна</p>
+            </a>
             <a href="page1.html">
                 <p>Фізичне здоров'я</p>
             </a>
@@ -27,9 +28,16 @@
             <a href="page3.html">
                 <p>Емоційне здоров'я</p>
             </a>
+            <a href="page4.html">
+                <p>Домедична допомога</p>
+            </a>
+            <!-- <button id="en">En</button>
+            <button id="ua">Ua</button> -->
         </nav>
+        <a class="phone_menuBtn" href="menu.html"><button>Меню</button></a>
         <h1 id="title_h1">Збережи здоров’я в кризових умовах</h1>
         <h2 id="title_h2">Привіт! Я створив цей сайт, щоб підтримати тебе в складний період.</h2>
+        <h2 id="cheack_form"></h2>
     </header>
 
     <main class="home_main">
@@ -60,7 +68,18 @@
                 <img class="happy_cat" src="static/images/10.png" alt="">
             </div>
         </section>
+        
+    <section class="wish">
+        <h2 class="titleWish">Побажання на день</h2>
+        <h6 id="textWish"></h6>
+        <button onclick="funRandWish2()">Подивитись</button>
+    </section>
     </main>
+
+    <script src="static/styels/wish.js">
+     
+    </script>
+
 </body>
 
 </html>
