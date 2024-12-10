@@ -1,4 +1,4 @@
-*{
+* {
 
     margin: 0;
 
@@ -6,10 +6,10 @@
 
     box-sizing: border-box;
 
-} 
+}
 
 /* Для всіх секцій */
-.all_section{
+.all_section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,43 +19,88 @@
 
 /* ГОЛОВНА */
 
-.home_main{
+.wish {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wish>button {
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.wish>button:hover {
+    color: white;
+    background-color: gray;
+}
+
+#textWish {
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(51,138,157,1) 12%, rgba(52,180,179,1) 36%, rgba(44,155,158,1) 58%, rgba(25,170,209,1) 68%, rgba(44,183,160,1) 85%, rgba(34,192,127,1) 96%);
+    height: 85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.titleWish{
+    font-style: italic;
+   
+}
+
+.home_main {
     background-image: url(../images/bckgr7.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* для section */
-#sad_cat{
+#sad_cat {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
 }
-.sad_cat_div1{
+
+.sad_cat_div1 {
     display: flex;
 }
-.wrappiing{
+
+.wrappiing {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
 }
-.wrappiing2{
+
+.wrappiing2 {
     padding-top: 50px;
     width: 490px;
     display: flex;
     flex-direction: column;
-    word-break:keep-all;
+    word-break: keep-all;
 }
-.wrappiing2>h2{
+
+.wrappiing2>h2 {
     margin-bottom: 30px;
 }
-.wrappiing2>h2:last-child{
+
+.wrappiing2>h2:last-child {
     margin-bottom: 0;
 }
-.sad_cat_div2{
+
+.sad_cat_div2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -64,13 +109,16 @@
     width: 500px;
     height: 800px;
 }
-.happy_cat{
+
+.happy_cat {
     width: 80%;
 }
-.sad_cat_cloud{
+
+.sad_cat_cloud {
     width: 500px;
 }
-.sad_cat_cat{
+
+.sad_cat_cat {
     width: 200px;
     height: 250px;
 }
@@ -78,7 +126,7 @@
 /* ФІЗИЧНЕ ЗДОРОВ'Я */
 
 /* для main */
-.physical_health_exercises{
+.physical_health_exercises {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,79 +138,129 @@
 }
 
 /* для section */
-.exercises{
+.exercises {
     width: 100%;
     padding-left: 70px;
     padding-right: 70px;
 }
-#title_h1{
+
+#title_h1 {
     font-family: SemiBoldItalic, sans-serif;
 }
-.exercises2{
+
+.exercises2 {
     width: 100%;
 }
 
 /* div із текстом */
-.morning_exercises_text{
+.morning_exercises_text {
     padding: 10px 30px;
 }
 
 /* div із текстом */
-.exercises_throughout_the_day{
+.exercises_throughout_the_day {
     display: flex;
     width: 1200px;
     padding: 10px 30px;
 }
-
-.exercises_throughout_the_day>img{
+.exercises_throughout_the_day>h2{
+    display: flex;
+    align-items: center;
+}
+.exercises_throughout_the_day>img {
     width: 230px;
     height: 230px;
-} 
+}
 
-#cat_img{
+#cat_img {
     width: 350px;
     height: 350px;
 }
 
 /* перший блок з картинкою */
-.cat_image_physical1{
+.cat_image_physical1 {
     display: flex;
     width: 850px;
 }
 
-.cat_image_physical1>img{
+.cat_image_physical1>img {
     width: 330px;
     height: 240px;
     margin-right: 30px;
 }
 
 /* другий блок з картинкою */
-.cat_image_physical2{
+.cat_image_physical2 {
     display: flex;
     margin-top: 40px;
     width: 800px;
 }
 
-.cat_image_physical2>img{
+.cat_image_physical2>img {
     width: 230px;
     height: 200px;
 }
 
 /* третий блок з картинкою */
-.cat_image_physical3{
+.cat_image_physical3 {
     display: flex;
     margin-top: 40px;
     width: 800px;
 }
 
-.paragraph{
+.paragraph {
     margin-left: 50px;
+}
+
+.imt {
+    display: flex;
+    word-break: keep-all;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imt>input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    height: 60px;
+    width: 260px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-color: yellowgreen;
+}
+
+.imt>button {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    height: 60px;
+    width: 260px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: orange;
+    font-weight: 600;
+}
+
+.imt>button:hover {
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+
+#deep_breathing_img {
+    border-radius: 20px;
+}
+
+#count_down_breathing {
+    font-size: 32px;
 }
 
 /* ПСИХОЛОГІЧНЕ ЗДОРОВ'Я */
 
 /* для main */
-.mental_health_exercises{
+.mental_health_exercises {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +272,7 @@
 }
 
 /* для section */
-.grounding{
+.grounding {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +282,7 @@
     width: 100%;
 }
 
-.grounding2{
+.grounding2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,68 +293,122 @@
 }
 
 /* картинка */
-.grounding>img{
+.grounding>img {
     width: 400px;
     height: 400px;
 }
 
 /* div із текстом */
-.mental_exercises_text{
+.mental_exercises_text {
     display: flex;
     flex-direction: column;
     padding: 10px 30px;
 }
 
-.Table{
+.Table {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     width: 100%;
 }
-.Table>table{
+
+.Table>table {
     text-align: center;
     height: 80%;
     width: 60%;
     font-size: 25px;
 }
-.Table>table>thead>tr>th{
+
+.Table>table>thead>tr>th {
     font-style: italic;
     font-size: 30px;
 }
 
-table, th, thead, tbody {
+table,
+th,
+thead,
+tbody {
     border: 2px solid rgb(7, 146, 201);
     border-collapse: collapse;
 }
 
-th{
+th {
     padding: 8px;
 }
 
-.mental_exercises_text>div{
+.mental_exercises_text>div {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 
-.mental_exercises_text>div>div{
+.mental_exercises_text>div>div {
     width: 430px;
 }
 
-.mental_exercises_text>div>div>section>ul>li{
+.mental_exercises_text>div>div>section>ul>li {
     font-size: 25px;
 }
 
-.mental_exercises_text>img{
+.mental_exercises_text>img {
     width: 300px;
     height: 300px;
+}
+
+.depFormBtn {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    height: 60px;
+    width: 260px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: rgb(85, 147, 147);
+    font-weight: 600;
+    color: white;
+}
+
+.depFormBtn:hover {
+    color: rgb(85, 147, 147);
+    background-color: white;
+}
+
+.testDep {
+    background-color: white;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.testDep>p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.testDep>p>label {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.testDep>p>span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.title_depTest {
+    width: 60%;
+}
+#answerDepTest{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* ЕМОЦІЙНЕ ЗДОРОВ'Я */
 
 /* для main */
-.emotional_health_exercises{
+.emotional_health_exercises {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,33 +420,39 @@ th{
 }
 
 /* для section */
-.emotional_health_section{ 
+.emotional_health_section {
     width: 100%;
 }
-.emotional_health_section2{
+
+.emotional_health_section2 {
     width: 100%;
 }
+
 /* div із текстом */
-.emotional_health_text{
+.emotional_health_text {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
 }
-.wrapping3{
+
+.wrapping3 {
     display: flex;
 }
-.emotional_health_text2{
+
+.emotional_health_text2 {
     display: flex;
     word-break: keep-all;
     padding-right: 50px;
     padding-bottom: 60px;
     padding-left: 100px;
 }
-.emotional_health_text2>img{
+
+.emotional_health_text2>img {
     width: 550px;
     height: 550px;
 }
-.activities{
+
+.activities {
     width: 650px;
     display: flex;
     align-items: center;
@@ -303,15 +461,18 @@ th{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.activities>ul{
+
+.activities>ul {
     list-style: none;
     line-height: 50px;
     font-style: italic;
 }
-.activities>ul>li{
-        font-size: 30px;
+
+.activities>ul>li {
+    font-size: 30px;
 }
-.activities>ul>li::before{
+
+.activities>ul>li::before {
     content: "";
     display: inline-block;
     width: 30px;
@@ -321,57 +482,219 @@ th{
     background-repeat: no-repeat;
     margin-right: 18px;
 }
-.activities_padding{
+
+.activities_padding {
     padding-left: 50px;
 }
-.activities_img{
+
+.activities_img {
     width: 400px;
 }
-.coffee_cat{
+
+.coffee_cat {
     width: 200px;
     height: 200px;
 }
-.playing_cat{
+
+.playing_cat {
     width: 200px;
     height: 300px;
 }
-.gaming_cat{
+
+.gaming_cat {
     height: 300px;
     width: 300px;
 }
-.reading_cat{
+
+.reading_cat {
     width: 250px;
     height: 250px;
 }
-.help_list{
+
+.help_list {
     padding-bottom: 80px;
 }
-.help_list>ul{
+
+.help_list>ul {
     line-height: 70px;
     margin-top: 30px;
 }
-.help_list>ul>li{
+
+.help_list>ul>li {
     font-size: 30px;
     font-style: italic;
 }
-.help_list>ul>li>a{
+
+.help_list>ul>li>a {
     text-decoration: none;
     font-weight: 600;
     font-style: normal;
     color: green;
 }
-.help_list>ul>li>a:hover{
+
+.help_list>ul>li>a:hover {
     color: orange;
 }
-#five_items{
+
+#five_items {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 20px;
 }
-#five_items>img{
+
+#five_items>img {
     width: 40px;
     height: 40px;
     margin-left: 10px;
+}
+
+.deep_breathing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deep_breathing_title_h2 {
+    width: 60%;
+}
+
+.deep_breathing>button {
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(184, 128, 207);
+}
+
+.deep_breathing>button:hover {
+    color: rgb(184, 128, 207);
+    background-color: rgb(47, 22, 57);
+}
+
+/* Домедична допомога */
+
+.bckg{
+    background-image: url(../images/Medical\ bckgr\ 2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.medical_main {
+    display: flex;
+    justify-content: center;
+    /* background-image: url(../images/Heart\ bckgr.png);
+    background-position: top;
+    background-repeat: repeat; */
+}
+
+.medical_main>section>div {
+    display: flex;
+    /* width: 48%; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.medical_main>section>div>span {
+    padding: 10px;
+}
+
+.medical_main>section>div>img {
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+}
+
+.medical_main>section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_for_song {
+    text-decoration: none;
+    font-weight: 600;
+    color: blue;
+}
+
+.slr_img {
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+.ryki {
+    top: 375%;
+    width: 13%;
+    position: absolute;
+    right: 38%;
+}
+
+.gryd3 {
+   width: 90%;
+   border-radius: 10px;
+}
+
+.mini-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-game>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-game>p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.mini-game>button {
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ex2>button {
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.ex2>button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.ex2>p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textP4{
+    font-size: 20px;
+}
+.red_phone{
+    width: 120px;
+    height: 120px;
+}
+.red_phone_text{
+    font-weight: 900;
+    color: rgb(183, 33, 33);
 }
